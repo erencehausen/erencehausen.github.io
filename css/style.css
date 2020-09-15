@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 600px) {
     #headshot-sm-container {
         display: block;
@@ -60,25 +59,7 @@ body {
     position: fixed;
 }
 
-/***************    Header    ******************/
-#header {}
-
-#headshot-sm-container {}
-
-#continue-button {
-    margin-top: 100px;
-}
-
-#nav {
-
-}
-
-#content-hide {
-    display: none;
-}
-
-
-.fullscreen-video {
+#fullscreen-video {
     filter: brightness(8%);
     width: 100vw;
     height: 100vh;
@@ -87,8 +68,46 @@ body {
     object-fit: cover;
 }
 
+/***************    Header    ******************/
+#header {}
+
+#headshot-sm-container {}
+
 #header-title {
     color: white;
- }
+}
 
-/***************        ******************/
+#nav {}
+
+#headshot-container {}
+
+#continue-button {
+    margin-top: 100px;
+}
+#content-hide {
+    display: none;
+}
+
+
+
+/***************    About    ******************/
+#about {}
+
+#skills {}
+
+
+/***************    Projects    ******************/
+#pojects {}
+
+#display-projects {}
+
+
+/***************    Contact    ******************/
+#contact {}
+
+#logo {}
+
+#contact-methods {}
+
+#message-me {}
+
