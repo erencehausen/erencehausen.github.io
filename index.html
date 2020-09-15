@@ -1,16 +1,93 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
     <title>Eric Rencehausen | Portfolio</title>
 </head>
-<body>
-<h1>Hello, World!</h1>
+<body id="main-wrapper" class="container">
 
+<div id="background-video">
+    <video loop muted autoplay playsinline id="fullscreen-video">
+        <source src="video/background-mp4.webm" type="video/webm">
+        <source src="video/background-mp4.mp4" type="video/mp4">
+    </video>
+</div>
+
+<header id="header" class="container-flex">
+    <div id="headshot-sm-container" class="col">
+        <img src="https://placeimg.com/300/300/people" alt="A picture of me">
+    </div>
+    <div>
+        <div id="header-title">
+            <h1>Eric <span>Rencehausen</span></h1>
+            <h4 class="pl-5">Web Developer.</h4>
+        </div>
+        <nav id="nav" class="col">
+            <a href="" class="col">About Me</a>
+            <a href="" class="col">Projects</a>
+            <a href="" class="col">Contact</a>
+        </nav>
+    </div>
+    <div id="headshot-container" class="">
+        <img src="https://placeimg.com/300/400/people" alt="A picture of me">
+    </div>
+    <div id="continue-button" class="col-12">
+        <a href="">
+            <h3>Continue</h3>
+            <h3>&darr;</h3>
+        </a>
+    </div>
+</header>
+
+<div id="content-hide">
+<main>
+    <section id="about">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facilis, optio! Aliquam amet architecto, commodi cupiditate eaque exercitationem iure, iusto maiores maxime nulla reprehenderit sed ullam veritatis vero voluptates voluptatibus.</p>
+    </section>
+    <hr>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Jquery</li>
+        </ul>
+    </section>
+    <hr>
+    <section id="pojects">
+    <h1>Projects</h1>
+        <div id="display-projects"></div>
+    </section>
+</main>
+
+<hr>
+<footer id="contact">
+    <div id="logo">
+        <h3>LOGO</h3>
+    </div>
+    <div id="contact-methods">
+
+    </div>
+
+    <div id="message-me">
+
+    </div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <!-- Custom Scripts-->
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
