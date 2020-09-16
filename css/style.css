@@ -6,42 +6,89 @@
 
     #headshot-sm-container img {
         display: block;
-        width: 90%;
+        width: 75%;
         margin-top: 20px;
         margin-right: auto;
         margin-left: auto;
     }
 
-    #header-title {
-         margin-top: 20px ;
+    #splash-page-title {
+        margin-top: 1em;
     }
 
-    #header-title span {
-        color: orange;
-    }
+    #splash-page-title span {}
 
     #headshot-container {
         display: none;
     }
 
+    #nav {
+        margin-left: 1em;
+    }
+
+    #links {
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    #links a {
+        display: block;
+        margin-top: 2%;
+        padding: .4em;
+        font-size: 1.3em;
+    }
+
+    #continue-button {
+        position: relative;
+    }
 }
 
 @media only screen and (min-width: 600px) {
+    #splash-page {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 90px;
+    }
+
     #headshot-sm-container {
         display: none;
+    }
+
+    #headshot-container {
+        margin: auto 0;
+    }
+
+    #headshot-container img {
+        width: 100%;
+    }
+
+    #links {
+        margin-top: 3em;
+    }
+
+    #links li, #nav a {
+        margin: 1em;
+        padding: 1em;
+        font-size: 1.2em;
     }
 }
 
 @media only screen and (min-width: 768px) {
+    #splash-page {
+        justify-content: space-evenly;
+        margin-top: 90px;
+    }
 
+    #splash-page-title h1 {
+        font-size: 3em;
+    }
 }
 
-@media only screen and (min-width: 992px) {
-
-}
 
 @media only screen and (min-width: 1200px) {
-
+    #splash-page-title span {
+        color: orange;
+    }
 }
 
 body {
@@ -68,26 +115,36 @@ body {
     object-fit: cover;
 }
 
-/***************    Header    ******************/
-#header {}
+/***************    splash-page    ******************/
+#splash-page {
+    z-index: -90;
+}
 
 #headshot-sm-container {}
 
-#header-title {
+#splash-page-title {
     color: white;
 }
 
-#nav {}
+#links a:link,
+#links a:visited {
+    color: white;
+}
+
+#links a:hover {}
+
+#links {
+    list-style: none;
+    text-align: center;
+}
+
+#links li {}
 
 #headshot-container {}
 
-#continue-button {
-    margin-top: 100px;
-}
 #content-hide {
     display: none;
 }
-
 
 
 /***************    About    ******************/
@@ -111,3 +168,6 @@ body {
 
 #message-me {}
 
+/*#continue-button {*/
+/*    margin-bottom: 0;*/
+/*}*/
